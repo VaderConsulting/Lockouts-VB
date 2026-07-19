@@ -1,0 +1,4 @@
+# This is the list of users to monitor.
+# Place comments in this file behind the hash symbol
+#
+LDAP://CN=Administrator,CN=Users,DC=YourOrganisation,DC=com,DC=au|usermonitoring1@yourorganisation
