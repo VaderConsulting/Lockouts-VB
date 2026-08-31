@@ -5,7 +5,7 @@ Legacy VB.NET service for monitoring AD user lockouts and sending email alerts.
 ## Contents
 
 - `UserLockoutSvc.sln`
-- `UserLockoutSvc/` — service source, setup artifacts, and related docs
+- `UserLockoutSvc/` - service source, setup artifacts, and related docs
 
 ## Attribution and provenance
 
