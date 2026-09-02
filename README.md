@@ -1,5 +1,7 @@
 ﻿# Lockouts
 
+**Source last updated:** 2012-07-07
+
 Legacy VB.NET service for monitoring AD user lockouts and sending email alerts.
 
 ## Contents
