@@ -13,6 +13,10 @@ Legacy VB.NET service for monitoring AD user lockouts and sending email alerts.
 
 No third-party source attribution markers were identified during this review.
 
+## Requirements
+
+- Visual Studio 2012, .NET Framework 2.0
+
 ## License
 
 MIT. See `LICENSE`.
