@@ -4,20 +4,32 @@ VB.NET Windows service (User Lockout Monitoring Service) that polls Active Direc
 
 **Source last updated:** 2012-07-07
 
----
+| Field | Value |
+| --- | --- |
+| Language | VB.NET |
+| Target | .NET Framework 2.0 |
+| Output | Windows service + MSI setup |
 
-## Contents
+## Solution structure
 
-- `UserLockoutSvc.sln`
-- `UserLockoutSvc/` - service source, setup artifacts, and related docs
+| Project | Language | Type | Purpose |
+| --- | --- | --- | --- |
+| `UserLockoutSvc` | VB.NET | Windows service | Poll AD lockouts and email alerts |
+| ServiceSetup | WiX/setup | MSI | Installer projects for the service |
 
-## Attribution and provenance
+## How to open
 
-No third-party source attribution markers were identified during this review.
+Open `UserLockoutSvc.sln` in Visual Studio.
 
 ## Requirements
 
-- Visual Studio 2012, .NET Framework 2.0
+- Visual Studio 2012 to 2017
+- .NET Framework 2.0
+- WiX Toolset / WixSetup extension (for MSI projects)
+
+## Attribution and provenance
+
+Working copy from my Historical Dev folder. No third-party source attribution markers were identified during this review.
 
 ## License
 
